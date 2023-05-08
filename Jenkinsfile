@@ -21,7 +21,7 @@ pipeline {
        
                 steps 
                 {
-                   bat "docker build -t='neopane1/finalone' ."
+                   bat "docker build -t=neopane1/finalone ."
              
                 }
             }
