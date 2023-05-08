@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="451932" started-at="2023-05-03T12:36:06 GMT" finished-at="2023-05-03T12:43:38 GMT">
+    <groups>
+    </groups>
+    <test name="FlightBooking 1 passenger" duration-ms="98070" started-at="2023-05-03T12:36:06 GMT" finished-at="2023-05-03T12:37:45 GMT">
+      <class name="testcases.BookFlightTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="setUp" is-config="true" duration-ms="25085" started-at="2023-05-03T12:36:07 GMT" finished-at="2023-05-03T12:36:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpParameters(java.lang.String, int)[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="setUpParameters" is-config="true" duration-ms="8" started-at="2023-05-03T12:36:32 GMT" depends-on-methods="testcases.BaseTest.setUp" finished-at="2023-05-03T12:36:32 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[584]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpParameters -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="registrationPageTest" duration-ms="64038" started-at="2023-05-03T12:36:32 GMT" finished-at="2023-05-03T12:37:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="registrationConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="registrationConfirmationPageTest" duration-ms="450" started-at="2023-05-03T12:37:36 GMT" depends-on-methods="testcases.BookFlightTest.registrationPageTest" finished-at="2023-05-03T12:37:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPageTest -->
+        <test-method status="PASS" signature="flightsDetailPageTest()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="flightsDetailPageTest" duration-ms="2575" started-at="2023-05-03T12:37:36 GMT" depends-on-methods="testcases.BookFlightTest.registrationConfirmationPageTest" finished-at="2023-05-03T12:37:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsDetailPageTest -->
+        <test-method status="PASS" signature="selectFlightPageTest()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="selectFlightPageTest" duration-ms="4262" started-at="2023-05-03T12:37:39 GMT" depends-on-methods="testcases.BookFlightTest.flightsDetailPageTest" finished-at="2023-05-03T12:37:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightPageTest -->
+        <test-method status="PASS" signature="billingAddressPageTest()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="billingAddressPageTest" duration-ms="393" started-at="2023-05-03T12:37:43 GMT" depends-on-methods="testcases.BookFlightTest.selectFlightPageTest" finished-at="2023-05-03T12:37:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAddressPageTest -->
+        <test-method status="PASS" signature="flightConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="flightConfirmationPageTest" duration-ms="612" started-at="2023-05-03T12:37:44 GMT" depends-on-methods="testcases.BookFlightTest.billingAddressPageTest" finished-at="2023-05-03T12:37:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.BookFlightTest@56ef9176]" name="quit" is-config="true" duration-ms="334" started-at="2023-05-03T12:37:44 GMT" finished-at="2023-05-03T12:37:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.BookFlightTest -->
+    </test> <!-- FlightBooking 1 passenger -->
+    <test name="FlightBooking 2 passenger" duration-ms="37936" started-at="2023-05-03T12:37:45 GMT" finished-at="2023-05-03T12:38:23 GMT">
+      <class name="testcases.BookFlightTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="setUp" is-config="true" duration-ms="25802" started-at="2023-05-03T12:37:45 GMT" finished-at="2023-05-03T12:38:11 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpParameters(java.lang.String, int)[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="setUpParameters" is-config="true" duration-ms="1" started-at="2023-05-03T12:38:11 GMT" depends-on-methods="testcases.BaseTest.setUp" finished-at="2023-05-03T12:38:11 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1169]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpParameters -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="registrationPageTest" duration-ms="7608" started-at="2023-05-03T12:38:11 GMT" finished-at="2023-05-03T12:38:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="registrationConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="registrationConfirmationPageTest" duration-ms="150" started-at="2023-05-03T12:38:18 GMT" depends-on-methods="testcases.BookFlightTest.registrationPageTest" finished-at="2023-05-03T12:38:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPageTest -->
+        <test-method status="PASS" signature="flightsDetailPageTest()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="flightsDetailPageTest" duration-ms="2292" started-at="2023-05-03T12:38:19 GMT" depends-on-methods="testcases.BookFlightTest.registrationConfirmationPageTest" finished-at="2023-05-03T12:38:21 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsDetailPageTest -->
+        <test-method status="PASS" signature="selectFlightPageTest()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="selectFlightPageTest" duration-ms="1101" started-at="2023-05-03T12:38:21 GMT" depends-on-methods="testcases.BookFlightTest.flightsDetailPageTest" finished-at="2023-05-03T12:38:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightPageTest -->
+        <test-method status="PASS" signature="billingAddressPageTest()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="billingAddressPageTest" duration-ms="345" started-at="2023-05-03T12:38:22 GMT" depends-on-methods="testcases.BookFlightTest.selectFlightPageTest" finished-at="2023-05-03T12:38:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAddressPageTest -->
+        <test-method status="PASS" signature="flightConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="flightConfirmationPageTest" duration-ms="483" started-at="2023-05-03T12:38:22 GMT" depends-on-methods="testcases.BookFlightTest.billingAddressPageTest" finished-at="2023-05-03T12:38:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.BookFlightTest@4fe3c938]" name="quit" is-config="true" duration-ms="147" started-at="2023-05-03T12:38:23 GMT" finished-at="2023-05-03T12:38:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.BookFlightTest -->
+    </test> <!-- FlightBooking 2 passenger -->
+    <test name="FlightBooking 3 passenger" duration-ms="315456" started-at="2023-05-03T12:38:23 GMT" finished-at="2023-05-03T12:43:38 GMT">
+      <class name="testcases.BookFlightTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="setUp" is-config="true" duration-ms="27831" started-at="2023-05-03T12:38:23 GMT" finished-at="2023-05-03T12:38:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpParameters(java.lang.String, int)[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="setUpParameters" is-config="true" duration-ms="1" started-at="2023-05-03T12:38:51 GMT" depends-on-methods="testcases.BaseTest.setUp" finished-at="2023-05-03T12:38:51 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1753]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpParameters -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="registrationPageTest" duration-ms="281745" started-at="2023-05-03T12:38:51 GMT" finished-at="2023-05-03T12:43:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="registrationConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="registrationConfirmationPageTest" duration-ms="280" started-at="2023-05-03T12:43:33 GMT" depends-on-methods="testcases.BookFlightTest.registrationPageTest" finished-at="2023-05-03T12:43:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPageTest -->
+        <test-method status="PASS" signature="flightsDetailPageTest()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="flightsDetailPageTest" duration-ms="1948" started-at="2023-05-03T12:43:33 GMT" depends-on-methods="testcases.BookFlightTest.registrationConfirmationPageTest" finished-at="2023-05-03T12:43:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsDetailPageTest -->
+        <test-method status="PASS" signature="selectFlightPageTest()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="selectFlightPageTest" duration-ms="2284" started-at="2023-05-03T12:43:35 GMT" depends-on-methods="testcases.BookFlightTest.flightsDetailPageTest" finished-at="2023-05-03T12:43:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightPageTest -->
+        <test-method status="PASS" signature="billingAddressPageTest()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="billingAddressPageTest" duration-ms="321" started-at="2023-05-03T12:43:37 GMT" depends-on-methods="testcases.BookFlightTest.selectFlightPageTest" finished-at="2023-05-03T12:43:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAddressPageTest -->
+        <test-method status="PASS" signature="flightConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="flightConfirmationPageTest" duration-ms="804" started-at="2023-05-03T12:43:37 GMT" depends-on-methods="testcases.BookFlightTest.billingAddressPageTest" finished-at="2023-05-03T12:43:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.BookFlightTest@4e9ba398]" name="quit" is-config="true" duration-ms="229" started-at="2023-05-03T12:43:38 GMT" finished-at="2023-05-03T12:43:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.BookFlightTest -->
+    </test> <!-- FlightBooking 3 passenger -->
+    <test name="FlightBooking 4 passenger" duration-ms="-53219" started-at="2023-05-03T12:43:39 GMT" finished-at="2023-05-03T12:42:45 GMT">
+      <class name="testcases.BookFlightTest">
+        <test-method status="PASS" signature="registrationConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="registrationConfirmationPageTest" duration-ms="177" started-at="2023-05-03T12:42:40 GMT" depends-on-methods="testcases.BookFlightTest.registrationPageTest" finished-at="2023-05-03T12:42:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPageTest -->
+        <test-method status="PASS" signature="flightsDetailPageTest()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="flightsDetailPageTest" duration-ms="2062" started-at="2023-05-03T12:42:41 GMT" depends-on-methods="testcases.BookFlightTest.registrationConfirmationPageTest" finished-at="2023-05-03T12:42:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsDetailPageTest -->
+        <test-method status="PASS" signature="selectFlightPageTest()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="selectFlightPageTest" duration-ms="1471" started-at="2023-05-03T12:42:43 GMT" depends-on-methods="testcases.BookFlightTest.flightsDetailPageTest" finished-at="2023-05-03T12:42:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightPageTest -->
+        <test-method status="PASS" signature="billingAddressPageTest()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="billingAddressPageTest" duration-ms="502" started-at="2023-05-03T12:42:44 GMT" depends-on-methods="testcases.BookFlightTest.selectFlightPageTest" finished-at="2023-05-03T12:42:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAddressPageTest -->
+        <test-method status="PASS" signature="flightConfirmationPageTest()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="flightConfirmationPageTest" duration-ms="545" started-at="2023-05-03T12:42:45 GMT" depends-on-methods="testcases.BookFlightTest.billingAddressPageTest" finished-at="2023-05-03T12:42:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="quit" is-config="true" duration-ms="95" started-at="2023-05-03T12:42:45 GMT" finished-at="2023-05-03T12:42:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="setUp" is-config="true" duration-ms="1686" started-at="2023-05-03T12:43:39 GMT" finished-at="2023-05-03T12:43:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpParameters(java.lang.String, int)[pri:0, instance:testcases.BookFlightTest@520a3426]" name="setUpParameters" is-config="true" duration-ms="1" started-at="2023-05-03T12:43:40 GMT" depends-on-methods="testcases.BaseTest.setUp" finished-at="2023-05-03T12:43:40 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpParameters -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:testcases.BookFlightTest@520a3426]" name="registrationPageTest" duration-ms="-59764" started-at="2023-05-03T12:43:40 GMT" finished-at="2023-05-03T12:42:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+      </class> <!-- testcases.BookFlightTest -->
+    </test> <!-- FlightBooking 4 passenger -->
+  </suite> <!-- Suite -->
+</testng-results>

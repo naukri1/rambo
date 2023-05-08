@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteA" duration-ms="161616" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:47 GMT">
+    <groups>
+    </groups>
+    <test name="SearchFunctionality-qa" duration-ms="112422" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:37:57 GMT">
+      <class name="testcases.SearchModuleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchModuleTest@21213b92]" name="setUp" is-config="true" duration-ms="102238" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:37:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchFunctionalTest(java.lang.String)[pri:0, instance:testcases.SearchModuleTest@21213b92]" name="searchFunctionalTest" duration-ms="9778" started-at="2023-05-03T12:37:48 GMT" finished-at="2023-05-03T12:37:57 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionalTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.SearchModuleTest@21213b92]" name="quit" is-config="true" duration-ms="156" started-at="2023-05-03T12:37:57 GMT" finished-at="2023-05-03T12:37:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.SearchModuleTest -->
+    </test> <!-- SearchFunctionality-qa -->
+    <test name="SearchFunctionality-java" duration-ms="124134" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:09 GMT">
+      <class name="testcases.SearchModuleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchModuleTest@6e1567f1]" name="setUp" is-config="true" duration-ms="115993" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchFunctionalTest(java.lang.String)[pri:0, instance:testcases.SearchModuleTest@6e1567f1]" name="searchFunctionalTest" duration-ms="7974" started-at="2023-05-03T12:38:01 GMT" finished-at="2023-05-03T12:38:09 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionalTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.SearchModuleTest@6e1567f1]" name="quit" is-config="true" duration-ms="111" started-at="2023-05-03T12:38:09 GMT" finished-at="2023-05-03T12:38:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.SearchModuleTest -->
+    </test> <!-- SearchFunctionality-java -->
+    <test name="SearchFunctionality-docker" duration-ms="148079" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:33 GMT">
+      <class name="testcases.SearchModuleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchModuleTest@71423665]" name="setUp" is-config="true" duration-ms="140603" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchFunctionalTest(java.lang.String)[pri:0, instance:testcases.SearchModuleTest@71423665]" name="searchFunctionalTest" duration-ms="7307" started-at="2023-05-03T12:38:26 GMT" finished-at="2023-05-03T12:38:33 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionalTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.SearchModuleTest@71423665]" name="quit" is-config="true" duration-ms="147" started-at="2023-05-03T12:38:33 GMT" finished-at="2023-05-03T12:38:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.SearchModuleTest -->
+    </test> <!-- SearchFunctionality-docker -->
+    <test name="SearchFunctionality-webdriver" duration-ms="161424" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:47 GMT">
+      <class name="testcases.SearchModuleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchModuleTest@5ce81285]" name="setUp" is-config="true" duration-ms="150544" started-at="2023-05-03T12:36:05 GMT" finished-at="2023-05-03T12:38:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchFunctionalTest(java.lang.String)[pri:0, instance:testcases.SearchModuleTest@5ce81285]" name="searchFunctionalTest" duration-ms="10723" started-at="2023-05-03T12:38:36 GMT" finished-at="2023-05-03T12:38:47 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionalTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.SearchModuleTest@5ce81285]" name="quit" is-config="true" duration-ms="144" started-at="2023-05-03T12:38:47 GMT" finished-at="2023-05-03T12:38:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.SearchModuleTest -->
+    </test> <!-- SearchFunctionality-webdriver -->
+  </suite> <!-- SuiteA -->
+</testng-results>

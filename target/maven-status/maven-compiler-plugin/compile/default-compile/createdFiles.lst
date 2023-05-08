@@ -1,0 +1,8 @@
+base\BasePage.class
+base\BillingAddressPage.class
+base\RegistrationConfirmationPage.class
+base\FlightsDetailPage.class
+base\RegistrationPage.class
+base\SearchModulePage.class
+base\FlightConfirmationPage.class
+base\SelectFlightPage.class
