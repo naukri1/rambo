@@ -32,7 +32,7 @@ pipeline {
        
                 steps 
                 {
-                   withCredentials([usernamePassword(credentialsId: 'jenkinseopane1', passwordVariable:'pass', usernameVariable:'user')])
+                   withCredentials([usernamePassword(credentialsId: 'jenkinsneopane1', passwordVariable:'pass', usernameVariable:'user')])
                    {
                      bat "docker login --username=${user} --password=${pass}"
                      bat "docker push neopane1/finalone:latest"
